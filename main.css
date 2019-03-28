@@ -1,6 +1,6 @@
 body
 {
-  background-image: url("andrej-lisakov-551627-unsplash.jpg");
+  background-image: url("backgrounds/journey-man-1364190-unsplash.jpg");
   width: 99vw;
   height: 99vh;
   margin:auto;
@@ -32,7 +32,7 @@ p
 .titlebar {
   font-size: 2vw;
   background-color: #222;
-  Font-family: "Comic Sans MS", cursive, sans-serif;
+  Font-family: "Arial", cursive, sans-serif;
   color: white;
 }
 
