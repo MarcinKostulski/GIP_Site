@@ -5,6 +5,8 @@ body
   margin:auto;
   background-size: cover;
   background-repeat: no-repeat;
+  background-clip: initial;
+  background-attachment: fixed;
 }
 
 p
