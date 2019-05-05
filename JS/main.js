@@ -18,7 +18,7 @@ function myFunction() {
 
 //!!!!!!!!!!!!!
 //EXPERIMENTAL
-//!!!!!!!!!!!!!
+
 //function scrollto(element) {
     // get the element on the page related to the button
 //    var scrollToId = element.getAttribute("data-scroll");
