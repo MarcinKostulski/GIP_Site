@@ -132,12 +132,11 @@ p
 }
 
 .scrollbutton{
-  font-size: 16px; 
+  background-color: #4CAF50;
   border: none;
-  outline: none;
   color: white;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit;  /* Important for vertical align on mobile phones  */
-  margin: 0;
+  padding: 15px 25px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
 }
