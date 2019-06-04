@@ -1,3 +1,8 @@
+html
+{
+  scroll-behavior: smooth;
+}
+
 body
 {
   background-image: url("../backgrounds/alessandro-erbetta-765497-unsplash.jpg");
@@ -14,6 +19,10 @@ p
   font-size: 2vw;
 }
 
+.content {
+  padding: 16px;
+}
+
 .content_title
 {
   font-size: 2vw;
@@ -28,7 +37,7 @@ p
 
 .content_text
 {
-  font-size:1vw;
+  font-size: 12;
   color: white;
   text-align: center;
   font-family: "Arial", Helvetica, sans-serif;
@@ -126,10 +135,6 @@ p
 .dropdown:hover .dropdown-content {
   display: block;
 } 
-
-.content {
-  padding: 16px;
-}
 
 .scrollbutton{
   background-color: #4CAF50;
