@@ -6,63 +6,159 @@
     <title>Marcin Gip</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="../GIP_Site/CSS/main.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 <body>
-    <div class="titlebar">GIP site Marcin</div>
-    <div id="navbar" class="navbar">
+    
+    <!-- Navigation -->
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+        
+        <a class="navbar-brand" href="#">Gip Marcin</a>
 
-        <a href="index.html">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-        <a href="#news">News</a>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+            
+                <li class="nav-item active dropdown-content">
+                    <a class="nav-link" href="#IT-section">
+                        IT
+                    </a>
+                </li>
+                <li class="nav-item active dropdown-content">
+                    <a class="nav-link" href="#CaseStudy-section">
+                        Case Study
+                    </a>
+                </li>
+                <li class="nav-item active dropdown-content">
+                    <a class="nav-link" href="#Ned-section">
+                        Nederlands
+                    </a>
+                </li>
+                <li class="nav-item active dropdown-content">
+                    <a class="nav-link" href="#Fra-section">
+                        Frans
+                    </a>
+                </li>
+                <li class="nav-item active dropdown-content">
+                    <a class="nav-link" href="#ENG-section">
+                        Engels
+                    </a>
+                </li>
 
-        <div class="dropdown">
-            <button class="dropbutton">GIP Taken
-                <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-content">
-                <a href="/HTML/IT.html">IT</a>
-                <a href="/HTML/Soft.html">Soft</a>
-                <a href="/HTML/Nederlands.html">Nederlands</a>
-                <a href="/HTML/Engels.html">Engels</a>
-                <a href="/HTML/Frans.html">Frans</a>
-                <a href="#">...</a>
-            </div>
+            </ul>
         </div>
         
-        <div class="navright">
-            <div class="dropdown">
-                <button class="dropbutton"> Link
-                    <i class="fa fa-caret-down"></i>
-                </button> 
-                <div class="dropdown-content">
-                    <a href="#">Link 1</a>
-                    <a href="#">Link 2</a>
-                    <a href="#">Link 3</a>
-                </div>
-            </div>
+    </nav>
+  
+  <!-- Page Content -->
+    <br><br><br>
+    <div class ="content_tile">
+        <h2 class="content_title">Main Page</h2>
+    </div>
+    <div class="content_text">Hallo en welkom op mijn gipsite. Mijn naam is Marcin en ik studeer IT en Netwerken aan het Immaculata instituut te Oostmalle. <br>
+            Op deze site kan u mijn verschillende giptaken vinden, het is vrij makkelijk te navigeren, <br> 
+            op de bovenstaande balk vindt u de verschillende vakken die daarna opgedeeld zijn in de verschillende taken. <br>
+            Veel leesplezier  :)
+    </div>
+    
+    <div id="IT-section" class="content_title" >IT
+        <div class="content_text">Dagverslagen stage<br><br>
+            Dag 1 | 2018-10-01<br>
+            Op het eerste dag ging ik mvr. Goetschalks op school helpen, zij gaf mij de taak om SSD's te installeren op de pc's.<br>
+            Eerst erin gemonteerd, daarna ingesteld[bios], +installatie van image van het server en de configuratie op school netwerk.<br>
+            Bij de eerste was het nogal moeizaam om en goede plek ervoor te vinden, de eerste keer moest ik het ook opnieuw doen omadat er kabels in de weg zaten, dus ook een nieuwe plek zoeken.<br>
+            Daarna ging het wel meer vlotjes, ongeveer 5 minuuten oom de ssd in te zetten voor elk pc. Daarnaa heb ik er per 2 hun bios geconfigureerd en image opgezet +an de netwerk toegevoegd.<br>
+            <br>
+            Dag 2 | 2018-10-02<br>
+            Na 2 uur wachten op een bus ging ik terug naar huis, eigenlijk 1 uur, de tweede uur duurde het terugkomen naar huis te voet waarbij er geen bussen aan de overkant te spotten vielen.<br>
+            Wat gewerkt aan gip-taken, oa dagverslagen aangevuld en huisstijlanalyze gemaakt.<br>
+            <br>
+            Dag 3 | 2018-10-03<br>
+            Afmetingen genomen van een oude gebouw voor een plattegrond, die daarna door Dante in Visio werd gemaakt.[blijkt een krachtig maar moeilik te gebruiken programma te zijn, maar vogens mij trok het op niets]<br>
+            win10, VS klaargezet, Python, C#, git  [Voor de eerste en tweede opdracht die ik heb gekregen.]<br>
+            text-bestand met uitleg over programmeer omgevingen en versiebeheer met git & github<br>
+            [De eerste taak, houdde in om van een cleane win10 te startten[die ik zojuist heb geinstalleerd] en een kant en klare programeeromgevng in te maken voor c# en Python met noticies erbij]<br>
+            opbouwen van "cinema" apparatuur [beamer,boxen,video-speler,scherm,...]  [voor een voorstelling van en goededoel organisatie was er een filmavond gepland, oom alles op te stellen zijn wij en herman geroepen]<br>
+            <br>
+            Dag 4 | 2018-10-04<br>
+            Text-bestand van vorige dag afgewerkt [Die rond het programeermgevingen en git]<br>
+            begonnen aan en programma in c# die van een gegeven pad gpx bestanden opsomt n een lijst een een bepaalde XML-tag van elk bestand weergeeft als bijvoegsel in hun naam. Met optie om de geselecteerde bestand te verwijderen.<br>
+            Plan gemaakt. De toonstelling van de film van gisteren is mislukt, herman werd er 2 keer naar geroepen, wij bleven op het bureau om aan opdrachten te werken. Die mensen bleken dom genoeg te zijn oom eerst de ondertitels niet kunnen aanzetten<br>
+            en daarnaa dachten dat die kapot waaren [omdat een stel kinderen voor een paar minuten allah akbar riepen] want de ondertitels "bleven hangen" en telkens god is groot lieten zien [in algemeen is mijn geloof in mensheid gedaald]<br>
+            <br>
+            Dag 5 | 2018-10-05<br>
+            Herman kon om wille van bepaalde redenen vandaag niet komen, dus bleven wij thuis waar we verder aan de geveven opdrachten werkten en de gip-taken<br>
+            Ik vond het heel spijtig dat de laatste stage dag is weggevallen omdat ik die zeer leerlijk vond en Herman was een geweldige mentor oom te hebben.<br>
+            Het is dus voor de eerste keer dat ik zelfbewust gelukkig uit mijn bet kwam om aandachtig aan opdrachten te werken.<br>
+            Ik heb veel bijgeleerd gedurende deze 2 dagen maar het zou leuk zijn moest ik de volledige week kunnen komen.<br>
+            <br><a href="https://gitlab.com/MarcinK-Immalle/stageverslagen">Link naar GitLab</a>
         </div>
 
+        <div class="content_text">Analyze v.h. huisstijl<br><br>
+            <iframe id="Analyze_huisstijl" title="Analyze_huisstijl"
+            src="https://docs.google.com/document/d/10It8adnMupukrlypALtuyE_h6lH4alY3Z1J2VZuAIrE/edit?usp=sharing"
+            width="900" height="600"></iframe>
+        </div>
+
+        <div class="content_text">Case study van stagebedrijf<br><br>
+            <iframe id="Case_study_stagebedrijf" title="Case_study_stagebedrijf"
+            src="https://docs.google.com/document/d/13utf3uMAaIxdWogkamWP1vlvlb_0_sbba6qBt46V8sg/edit?usp=sharing"
+            width="900" height="600"></iframe>
+        </div>
+
+        <div class="content_text">Zelfreflectie stage<br><br>
+            Zelf vond ik het stage zeer leerlijk en plezant [ook als het maar technich gezien 2 dagen waaren], ik heb ook een betere zicht op het echte werk wereld gekregen in de it richting.<br>
+            Ik vind het spijtig dat ik niet de volledige week zou kunnen gaan omdat ik er van zeker ben dat ik immens veel meer zou bij leren in die tijd. Herman was een prachtige mentor om te hebben en een geweldige mens om te leren kennen. <br>
+        </div>
+
+        <div class="content_text">IT-Tappa<br><br>
+            <iframe src="https://docs.google.com/document/d/1lyDqU7WcU0yDXCNVLdo0HMEVCnMa6gNfCBJMt7QE_YA/edit?usp=sharing"
+            width="900" height="600"></iframe>
+
+            <iframe src="https://docs.google.com/presentation/d/1zWPK0TCuREdNe3b0S9aD9yJsJdDLanQTCLwU0hjzjWA/edit?usp=sharing" 
+            width="900" height="600"></iframe>
+        </div>
+    </div>
+     
+    <div id="CaseStudy-section" class="content_title">Case-study +webapp<br><br>  
+        <div class="content_text">Case-study<br><br> 
+            <iframe id="Case-study-doc" title="Case-study-doc"
+            src="https://docs.google.com/document/d/1qd8EypXq4sMSVDOd_1lTN0bxT5-j-u0f9v9VFxHJdoY/edit?usp=sharing"
+            width="900" height="600"></iframe>
+        </div>
+
+        <div class="content_text">App<br><br>
+            <a href="./HTML/ScribbleDemo.html">GOTO</a>
+        </div>
     </div>
 
-    <p class="content_title">Main Page</p>
-    <p class="content_text">
-        Hallo en welkom op mijn gipsite. Mijn naam is Marcin en ik studeer IT en Netwerken aan het Immaculata instituut te Oostmalle. <br>
-        Op deze site kan u mijn verschillende giptaken vinden, het is vrij makkelijk te navigeren, <br> 
-        op de bovenstaande balk vindt u de verschillende vakken die daarna opgedeeld zijn in de verschillende taken. <br>
-        Veel leesplezier  :) 
-    </p>
+    <div id="Ned-section" class="content_title">Ned<r><br>
+        <div class="content_text">Dankmail aan stagebedrijf<br><br>
+            <iframe id="Dankmail-stagebedrijf"
+            src="https://docs.google.com/document/d/1C7cDXrN1CQgOssfugLcrh0yG8WJ5CC_BZyWKLvDYAbQ/edit?usp=sharing"
+            width="900" height="600"></iframe>
+        </div>
+    </div>
 
-    <button data-scroll="#somethingonpage" 
-    onclick="scrollto(this);">something on page</button>
+    <div id="Fra-section" class="content_title">Fra<br><br>
+        <div>Reportage foto<br><br>
+            <iframe src="https://docs.google.com/presentation/d/11XAar45NtXiCn-CWfEwOPQlzFufIPNN2q_H-bYVgxKM/edit?usp=sharing"
+            width="900" height="600"></iframe>
+        </div>
 
-    <p class="content_text"> 
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    </p>
+        <div>Foire aux questions<br><br>
+            <iframe src="https://docs.google.com/document/d/1_lNB2lVxwIvdGL7awOQ0vFWadVUDlpq7npJSWhRNfKA/edit?usp=sharing" frameborder="0"></iframe>
+        </div>
+    </div>
 
-    <div id="somethingonpage" class="content_text">scrolls to here when you click on the link above</div>
-    
-    <script src="/JS/main.js"></script>
+    <!-- <script src="/JS/main.js"></script> -->
+
+    <!-- bootstrap shit -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
